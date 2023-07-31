@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/output.css" rel="stylesheet" />
+    <link
+      rel="shortcut icon"
+      href="./src/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <title>Manchester University Clone</title>
   </head>
   <body>
     <header class="py-8 px-16">
@@ -21,6 +27,7 @@
               <img
                 src="./src/images/icon-home-25px-949699.png"
                 alt=""
+                class=""
                 srcset=""
               />
             </li>
@@ -32,9 +39,9 @@
           </ul>
         </div>
         <div class="mt-4 mr-32">
-          <button class="flex gap-4 border border-slate-300 p-2 rounded-md">
+          <button class="flex gap-4 border border-slate-300 p-3 rounded-md">
             <img
-              class="w-[20px]"
+              class="w-8"
               src="./src/images/icon-search-mobile.png"
               alt=""
               srcset=""
@@ -53,14 +60,14 @@
           alt=""
         />
         <div class="absolute top-2 left-14 p-8">
-          <div class="text-3xl w-72 bg-[#E6ECDB] p-4">
+          <div class="text-2xl w-72 bg-[#E6ECDB] p-4">
             University Magazine 2023
           </div>
           <p class="leading-6 py-4 w-64 p-4 bg-[#E6ECDB]">
             Our summer issue celebrates the students, staff and alumni embodying
             our six values as they make thier mark on the world.
           </p>
-          <button class="flex gap-8 align-middle bg-[#6B2C91] mt-2 py-2 px-4">
+          <button class="flex gap-8 align-middle bg-[#6B2C91] py-4 px-4">
             <span class="text-white">Read more</span
             ><span class=""
               ><svg
@@ -81,7 +88,7 @@
     <!-- Study Section -->
     <section class="p-12">
       <div>
-        <h1 class="text-2xl">Study</h1>
+        <h1 class="text-3xl py-4">Study</h1>
       </div>
       <div class="container grid grid-cols-3 gap-8">
         <div class="bg-[#6B2C91] grid grid-cols-2 col-span-2">
@@ -89,7 +96,7 @@
             <h1 class="text-2xl py-4 text-white">
               Course and programme finder
             </h1>
-            <h2 class="text-white text-xl">A-Z lists</h2>
+            <h2 class="text-white text-xl py-4">A-Z lists</h2>
             <ul class="list-disc text-yellow-400">
               <li>Undergraduate courses(2024 entry)</li>
               <li>Undergraduate courses(2024 entry)</li>
@@ -108,10 +115,12 @@
               />
               <input
                 type="text"
-                class="h-8 rounded-md"
+                class="h-8 rounded-md placeholder:mx-auto placeholder:ml-4"
                 placeholder="Enter Keywords"
               />
-              <button class="h-8 bg-black text-white z-40">Search</button>
+              <button class="h-8 bg-black text-white rounded-md z-40">
+                Search
+              </button>
             </form>
           </div>
         </div>
@@ -246,16 +255,16 @@
     </section>
 
     <!-- Explore Manchester section -->
-    <section class="mt-8 p-10 bg-slate-100">
-      <h1 class="text-3xl py-8 text-slate-400">Explore Manchester</h1>
-      <div class="grid grid-cols-3 gap-4">
+    <section class="mt-8 p-12 bg-slate-100">
+      <h1 class="text-3xl py-8 ml-8 text-slate-400">Explore Manchester</h1>
+      <div class="grid grid-cols-3 gap-4 w-2/3 mx-auto">
         <div class="relative col-span-2">
           <img
             src="https://www.manchester.ac.uk/jodrell-050819.jpg"
             alt=""
             srcset=""
           />
-          <div class="absolute bottom-2 left-0 bg-white w-2/3">
+          <div class="absolute bottom-2 left-0 bg-slate-100 w-2/3">
             <h1 class="w-fit p-2">Jodrell Bank</h1>
             <p class="p-4 leading-4">
               Our jodrell Bank Observatory (a UNESCO World Heritage Site) is
@@ -269,7 +278,7 @@
             alt=""
             srcset=""
           />
-          <div class="absolute bottom-0 left-0 bg-white w-2/3">
+          <div class="absolute bottom-0 left-0 bg-slate-100 w-2/3">
             <h1 class="w-fit p-2">
               The John Rylands Research Institute and Library
             </h1>
@@ -285,7 +294,7 @@
             alt=""
             srcset=""
           />
-          <div class="absolute bottom-0 left-0 bg-white w-60">
+          <div class="absolute bottom-0 left-0 bg-slate-100 w-60">
             <h1 class="bg-white w-fit p-2">Manchester Museum</h1>
             <p class="bg-white p-2 leading-4">
               With dinosaur sizelections and mummies from Ancient Egypt.
@@ -310,7 +319,7 @@
             alt=""
             srcset=""
           />
-          <div class="absolute bottom-0 left-0 bg-white w-2/3">
+          <div class="absolute bottom-0 left-0 bg-slate-100 w-2/3">
             <h1 class="w-fit p-2">The Whitworth</h1>
             <p class="p-4 leading-4">
               Our art gallery is home to more than 55,000 works of art, ranging
@@ -321,7 +330,7 @@
       </div>
     </section>
     <!-- Footer section -->
-    <footer class="flex flex-col bg-black text-slate-100 p-10">
+    <footer class="flex flex-col gap-8 bg-black text-slate-100 p-10">
       <div class="flex justify-between">
         <div>
           <h1 class="font-bold text-xl py-2">Contact Us</h1>
@@ -352,7 +361,12 @@
               <img src="./src/images/icon-instagram-50.svg" alt="" srcset="" />
             </li>
             <li>
-              <img src="./src/images/icon-tiktok.svg" alt="" srcset="" />
+              <img
+                class=""
+                src="./src/images/icon-tiktok.svg"
+                alt=""
+                srcset=""
+              />
             </li>
             <li>
               <img src="./src/images/icon-linkedin-R-54.png" alt="" srcset="" />
@@ -369,8 +383,8 @@
           <li>Web accessibility \</li>
           <li>Freedom of information \</li>
           <li>Charitable status \</li>
-          <li>Royal Charter Number. RC000797</li>
         </ul>
+        <div>Royal Charter Number. RC000797</div>
       </div>
     </footer>
   </body>
