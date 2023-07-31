@@ -750,6 +750,10 @@ video {
   margin-left: 4rem;
 }
 
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
