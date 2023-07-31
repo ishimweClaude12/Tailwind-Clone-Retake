@@ -83,10 +83,12 @@
       <div>
         <h1 class="text-2xl">Study</h1>
       </div>
-      <div class="container grid grid-cols-3">
+      <div class="container grid grid-cols-3 gap-8">
         <div class="bg-[#6B2C91] grid grid-cols-2 col-span-2">
-          <div class="p-8 leading-5">
-            <h1 class="text-2xl text-white">Course and programme finder</h1>
+          <div class="p-8 leading-6">
+            <h1 class="text-2xl py-4 text-white">
+              Course and programme finder
+            </h1>
             <h2 class="text-white text-xl">A-Z lists</h2>
             <ul class="list-disc text-yellow-400">
               <li>Undergraduate courses(2024 entry)</li>
@@ -96,26 +98,30 @@
             </ul>
           </div>
           <div>
-            <form action="#" class="flex flex-col pt-8">
+            <form action="#" class="flex flex-col gap-4 pt-24 mr-4">
               <input
                 type="text"
-                class="h-24"
+                class="h-8 rounded-md"
                 name="Undergraduate"
                 id="undg"
                 placeholder="Undergraduate (2024 entry)"
               />
-              <input type="text" placeholder="Enter Keywords" />
-              <button>Search</button>
+              <input
+                type="text"
+                class="h-8 rounded-md"
+                placeholder="Enter Keywords"
+              />
+              <button class="h-8 bg-black text-white z-40">Search</button>
             </form>
           </div>
         </div>
-        <div>
-          <h1>Undergraduate prospectus</h1>
-          <p>
+        <div class="bg-slate-100 p-8">
+          <h1 class="text-3xl">Undergraduate prospectus</h1>
+          <p class="text-xl mt-4">
             Explore our online prospectus to discover how you can make your mark
             at Mancherster.
           </p>
-          <button>
+          <button class="mt-4 flex gap-4">
             <span>Read More</span>
             <span
               ><svg
@@ -125,11 +131,194 @@
                 viewBox="0 0 24 24"
               >
                 <path
-                  fill="white"
+                  fill="black"
                   d="m13.171 12l-4.95-4.95l1.415-1.413L16 12l-6.364 6.364l-1.414-1.415l4.95-4.95Z"
                 /></svg
             ></span>
           </button>
+        </div>
+      </div>
+    </section>
+    <!-- discover section -->
+    <section class="bg-slate-100 px-9 py-4">
+      <h1 class="text-3xl my-4">Discover</h1>
+      <div class="flex justify-between">
+        <div class="flex gap-4">
+          <span
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="88"
+              height="88"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M12 11.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Z"
+              /></svg
+          ></span>
+          <div>
+            <h1 class="font-bold text-xl">Maps</h1>
+            <p>Come and visit us</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <span
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="88"
+              height="88"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="black"
+                d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2zM9 14H7v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2zm-8 4H7v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2z"
+              /></svg
+          ></span>
+          <div>
+            <h1 class="font-bold text-xl">Events</h1>
+            <p>What's on at the University</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <span
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="66"
+              height="66"
+              viewBox="0 0 512 512"
+            >
+              <path
+                fill="black"
+                d="m55.379 25l-28.4 142H172.27L256 83.271L339.729 167H485.02l-28.4-142zM256 108.727L179.729 185H41v302h158v-87c0-18.25 7.166-33.077 18.021-42.727C227.877 347.624 242 343 256 343s28.123 4.624 38.979 14.273C305.834 366.923 313 381.75 313 400v87h158V185H332.271zm0 38.544l57 57V297H199v-92.729zm0 25.456l-39 39V279h78v-67.271zM71 199h98v98H71zm272 0h98v98h-98zM89 217v30h62v-30zm272 0v30h62v-30zM89 265v14h62v-14zm272 0v14h62v-14zM71 359h98v98H71v-98zm272 0h98v98h-98v-98zm-87 2c-10 0-19.877 3.376-27.021 9.727C221.834 377.077 217 386.25 217 400v87h78v-87c0-13.75-4.834-22.923-11.979-29.273C275.877 364.376 266 361 256 361zM89 377v62h62v-62zm272 0v62h62v-62z"
+              /></svg
+          ></span>
+          <div>
+            <h1 class="font-bold text-xl">Heritage</h1>
+            <p>Explore our past</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Connect  -->
+
+    <section class="px-12 my-8">
+      <h1 class="text-3xl my-8 text-slate-400">Connect</h1>
+      <div class="container flex gap-4">
+        <div class="relative">
+          <img
+            src="https://www.manchester.ac.uk/Connect-Jobs.jpg"
+            alt=""
+            srcset=""
+          />
+          <div class="absolute bottom-0 left-0">
+            <h1 class="bg-slate-200 w-fit p-2">Jobs</h1>
+            <p class="bg-slate-200 p-2">
+              We offer every kind of role imaginable From local talent to global
+              experts. we want to hear from you
+            </p>
+          </div>
+        </div>
+        <div class="relative">
+          <img src="https://www.manchester.ac.uk/Alumni.jpg" alt="" srcset="" />
+          <div class="absolute bottom-0 left-0">
+            <h1 class="bg-slate-200 w-fit p-2">Alumni</h1>
+            <p class="bg-slate-200 p-2 leading-4">
+              Enjoy the benefits of being a part of the largest global alumni
+              community of any campus-based university in the UK.
+            </p>
+          </div>
+        </div>
+        <div class="relative">
+          <img
+            src="https://www.manchester.ac.uk/Teachers-Careers.jpg"
+            alt=""
+            srcset=""
+          />
+          <div class="absolute bottom-0 left-0">
+            <h1 class="bg-slate-200 w-fit p-2">
+              Teachers and Careers advisers
+            </h1>
+            <p class="bg-slate-200 p-4 leading-4">
+              Our tailored support services and engaging activities for pupils
+              of all ages will help make your job easier
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Explore Manchester section -->
+    <section class="mt-8 p-10 bg-slate-100">
+      <h1 class="text-3xl py-8 text-slate-400">Explore Manchester</h1>
+      <div class="grid grid-cols-3 gap-4">
+        <div class="relative col-span-2">
+          <img
+            src="https://www.manchester.ac.uk/jodrell-050819.jpg"
+            alt=""
+            srcset=""
+          />
+          <div class="absolute bottom-2 left-0 bg-white w-2/3">
+            <h1 class="w-fit p-2">Jodrell Bank</h1>
+            <p class="p-4 leading-4">
+              Our jodrell Bank Observatory (a UNESCO World Heritage Site) is
+              home to the giant Lovell Telescope
+            </p>
+          </div>
+        </div>
+        <div class="relative row-span-2">
+          <img
+            src="https://www.manchester.ac.uk/John-Rylands-Library-Deansgate-154-100320-edited.jpg"
+            alt=""
+            srcset=""
+          />
+          <div class="absolute bottom-0 left-0 bg-white w-2/3">
+            <h1 class="w-fit p-2">
+              The John Rylands Research Institute and Library
+            </h1>
+            <p class="p-4 leading-4">
+              Our Grade I listed, neo Gothic library houses the University
+              Special Collections.
+            </p>
+          </div>
+        </div>
+        <div class="relative row-span-2">
+          <img
+            src="https://www.manchester.ac.uk/Manchester-Museum-180320-edited.jpg"
+            alt=""
+            srcset=""
+          />
+          <div class="absolute bottom-0 left-0 bg-white w-60">
+            <h1 class="bg-white w-fit p-2">Manchester Museum</h1>
+            <p class="bg-white p-2 leading-4">
+              With dinosaur sizelections and mummies from Ancient Egypt.
+              Manchester Museum's colectoin of more than 4 million objects spans
+              milennia.
+            </p>
+          </div>
+        </div>
+        <div class="relative">
+          <img
+            src="https://www.manchester.ac.uk/manchester-christmas-markets3.jpg"
+            alt=""
+            srcset=""
+          />
+          <div class="absolute bottom-0 left-0">
+            <h1 class="bg-white w-fit p-2">The City of Manchester</h1>
+          </div>
+        </div>
+        <div class="relative col-span-2">
+          <img
+            src="https://www.manchester.ac.uk/the-Whitworth-180320-edited.jpg"
+            alt=""
+            srcset=""
+          />
+          <div class="absolute bottom-0 left-0 bg-white w-2/3">
+            <h1 class="w-fit p-2">The Whitworth</h1>
+            <p class="p-4 leading-4">
+              Our art gallery is home to more than 55,000 works of art, ranging
+              from textiles to some of the most famous British watercolours.
+            </p>
+          </div>
         </div>
       </div>
     </section>
