@@ -853,6 +853,10 @@ video {
   height: 2rem;
 }
 
+.h-\[50px\] {
+  height: 50px;
+}
+
 .w-2\/3 {
   width: 66.666667%;
 }
@@ -884,6 +888,10 @@ video {
 
 .w-11\/12 {
   width: 91.666667%;
+}
+
+.w-\[50px\] {
+  width: 50px;
 }
 
 .flex-shrink {
