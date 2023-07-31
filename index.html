@@ -6,6 +6,132 @@
     <link href="/dist/output.css" rel="stylesheet" />
   </head>
   <body>
-    <h1 class="text-3xl font-bold underline bg-slate-600">Hello world!</h1>
+    <header class="py-8 px-16">
+      <nav class="flex justify-between align-middle bg-white gap-16">
+        <div>
+          <img
+            src="https://assets.manchester.ac.uk/corporate/images/design/logo-university-of-manchester.png"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div class="flex-grow pt-4">
+          <ul class="flex gap-8 text-2xl">
+            <li>
+              <img
+                src="./src/images/icon-home-25px-949699.png"
+                alt=""
+                srcset=""
+              />
+            </li>
+            <li>Study</li>
+            <li>Research</li>
+            <li>Collaborate</li>
+            <li>Discover</li>
+            <li>Connect</li>
+          </ul>
+        </div>
+        <div class="mt-4 mr-32">
+          <button class="flex gap-4 border border-slate-300 p-2 rounded-md">
+            <img
+              class="w-[20px]"
+              src="./src/images/icon-search-mobile.png"
+              alt=""
+              srcset=""
+            />
+            <span>Search</span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main class="bg-slate-200">
+      <div class="container w-[92%] mx-auto relative">
+        <img
+          src="https://www.manchester.ac.uk/Magazine-Nazir-1400x450.jpg"
+          alt=""
+        />
+        <div class="absolute top-2 left-14 p-8">
+          <div class="text-3xl w-72 bg-[#E6ECDB] p-4">
+            University Magazine 2023
+          </div>
+          <p class="leading-6 py-4 w-64 p-4 bg-[#E6ECDB]">
+            Our summer issue celebrates the students, staff and alumni embodying
+            our six values as they make thier mark on the world.
+          </p>
+          <button class="flex gap-8 align-middle bg-[#6B2C91] mt-2 py-2 px-4">
+            <span class="text-white">Read more</span
+            ><span class=""
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="white"
+                  d="m13.171 12l-4.95-4.95l1.415-1.413L16 12l-6.364 6.364l-1.414-1.415l4.95-4.95Z"
+                /></svg
+            ></span>
+          </button>
+        </div>
+      </div>
+    </main>
+    <!-- Study Section -->
+    <section class="p-12">
+      <div>
+        <h1 class="text-2xl">Study</h1>
+      </div>
+      <div class="container grid grid-cols-3">
+        <div class="bg-[#6B2C91] grid grid-cols-2 col-span-2">
+          <div class="p-8 leading-5">
+            <h1 class="text-2xl text-white">Course and programme finder</h1>
+            <h2 class="text-white text-xl">A-Z lists</h2>
+            <ul class="list-disc text-yellow-400">
+              <li>Undergraduate courses(2024 entry)</li>
+              <li>Undergraduate courses(2024 entry)</li>
+              <li>Taught master's courses</li>
+              <li>Postgraduate research areas</li>
+            </ul>
+          </div>
+          <div>
+            <form action="#" class="flex flex-col pt-8">
+              <input
+                type="text"
+                class="h-24"
+                name="Undergraduate"
+                id="undg"
+                placeholder="Undergraduate (2024 entry)"
+              />
+              <input type="text" placeholder="Enter Keywords" />
+              <button>Search</button>
+            </form>
+          </div>
+        </div>
+        <div>
+          <h1>Undergraduate prospectus</h1>
+          <p>
+            Explore our online prospectus to discover how you can make your mark
+            at Mancherster.
+          </p>
+          <button>
+            <span>Read More</span>
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="white"
+                  d="m13.171 12l-4.95-4.95l1.415-1.413L16 12l-6.364 6.364l-1.414-1.415l4.95-4.95Z"
+                /></svg
+            ></span>
+          </button>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
